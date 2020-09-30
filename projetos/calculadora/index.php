@@ -21,8 +21,10 @@
         array_push($valores , $value);
       }
       include_once "inc/funcoes.php";
-      //$resultado = 
 
+      $baskhara = new Baskhara();
+      $delta = $baskhara->delta($valores); 
+      echo $baskhara->raizes($$delta);
     }
 ?>
  
